@@ -1,6 +1,6 @@
 # Intermediate Layer Classifiers for OOD generalization
 
-This repository contains code to reproduce the experiments from the paper ["Intermediate Layer Classifiers for OOD generalization"](https://arxiv.org/abs/2504.05461).
+This repository contains code to reproduce the experiments from the paper <a href="https://arxiv.org/abs/2504.05461" target="_blank">"Intermediate Layer Classifiers for OOD generalization"</a>.
 
 [![arXiv](https://img.shields.io/badge/arXiv-2504.05461-b31b1b.svg)](https://arxiv.org/abs/2504.05461)
 
