@@ -1,6 +1,9 @@
-# Earlier layers are often more useful for OOD generalization than the last layer
+# Intermediate Layer Classifiers for OOD generalization
 
-This repository contains code to reproduce the experiments from the paper “Intermediate layer classifiers for OOD generalization”.
+This repository contains code to reproduce the experiments from the paper ["Intermediate Layer Classifiers for OOD generalization"](https://arxiv.org/abs/2504.05461).
+
+[![arXiv](https://img.shields.io/badge/arXiv-2504.05461-b31b1b.svg)](https://arxiv.org/abs/2504.05461)
+
 
 ## Overview
 
@@ -89,6 +92,18 @@ Running both zero-shot and few-shot variants:
 
 - For analysis, we provide layer feature sensitivity analysis notebooks for the CIFAR-10C dataset: [CIFAR-10C layer sensitivity](examples/CIFAR/layer-sensitivity.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-8AE1HzM3-nt__hkHJ6uWFFFlc33zZom). This notebook shows that earlier layers are less affected by distribution shifts, suggesting a reason for their better generalization.
 
+## Citation
+
+If you find our work useful, please cite:
+
+```bibtex
+@inproceedings{uselis2024intermediate,
+  title={Intermediate Layer Classifiers for OOD generalization},
+  author={Uselis, Arnas and Oh, Seong Joon},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2024}
+
+```
 
 ## Acknowledgements
 
